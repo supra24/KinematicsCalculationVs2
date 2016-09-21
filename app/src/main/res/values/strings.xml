@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kinematics Calculator vs2</string>
+
+    <string name="name_kinematics_simple">Kinematics Simple</string>
+    <string name="name_kinematics_reverse">Kinematics Reverse</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

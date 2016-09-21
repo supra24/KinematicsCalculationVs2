@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:menuCategory="system">
+
+        <item
+            android:id="@+id/id_connector_linear"
+            android:icon="@drawable/connector_linear"
+            android:orderInCategory="0"
+            android:title="Connector Linear"></item>
+        <item
+            android:id="@+id/id_rotary_horizontally"
+            android:icon="@drawable/rotary_horizontally"
+            android:orderInCategory="1"
+            android:title="Rotary Horrizontally"></item>
+        <item
+            android:id="@+id/id_rotary_vertically"
+            android:icon="@drawable/rotary_vertically"
+            android:orderInCategory="3"
+            android:title="Rotary Vertically"></item>
+        <item
+            android:id="@+id/id_effector"
+            android:title="Effector"></item>
+    </group>
+    <group>
+
+        <item
+            android:id="@+id/id_end"
+            android:title="End"
+            android:visible="false"></item>
+
+        <item
+            android:id="@+id/id_undo"
+            android:title="Undo"></item>
+    </group>
+
+
+</menu>
