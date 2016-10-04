@@ -26,12 +26,6 @@ public abstract class ObjectParent {
             {0.0f, 0.0f, 1.0f, 1.0f},  // 3. blue
             {1.0f, 0.0f, 0.0f, 1.0f},  // 4. red
             {1.0f, 1.0f, 0.0f, 1.0f},  // 5. yellow
-            {1.0f, 1.0f, 0.0f, 1.0f},   // 5. yellow
-            {1.0f, 0.0f, 0.0f, 1.0f},  // 4. red
-            {0.0f, 0.0f, 1.0f, 1.0f},  // 3. blue
-            {0.0f, 1.0f, 0.0f, 1.0f},  // 2. green
-            {1.0f, 0.0f, 1.0f, 1.0f},  // 1. violet
-            {1.0f, 0.5f, 0.0f, 1.0f},  // 0. orange
     };
 
     public ObjectParent (){

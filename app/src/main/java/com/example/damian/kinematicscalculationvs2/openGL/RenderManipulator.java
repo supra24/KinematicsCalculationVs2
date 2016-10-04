@@ -7,6 +7,8 @@ import com.example.damian.kinematicscalculationvs2.openGL.objects.Cube;
 import com.example.damian.kinematicscalculationvs2.openGL.objects.CuboidA;
 import com.example.damian.kinematicscalculationvs2.openGL.objects.CuboidD;
 import com.example.damian.kinematicscalculationvs2.openGL.objects.ObjectParent;
+import com.example.damian.kinematicscalculationvs2.openGL.objects.Xaxis;
+import com.example.damian.kinematicscalculationvs2.openGL.objects.Yaxis;
 
 import java.util.ArrayList;
 
@@ -33,6 +35,9 @@ public class RenderManipulator extends AbstractRenderer {
     }
 
     private void render() {
+
+
+
 
         for (int i = 0; i < tableParameter.length; i++) {
 
@@ -174,6 +179,9 @@ public class RenderManipulator extends AbstractRenderer {
         }
 
         object.add(new Cube(effectorEndCoord[0], effectorEndCoord[1], effectorEndCoord[2]));
+        object.add(new Xaxis(20));
+        object.add(new Yaxis(20));
+
     }
 
     @Override

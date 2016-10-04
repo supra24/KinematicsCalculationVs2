@@ -16,17 +16,26 @@
         <TextView
             android:id="@+id/textX"
             android:layout_width="match_parent"
-            android:layout_height="20dp" />
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
 
         <TextView
             android:id="@+id/textY"
             android:layout_width="match_parent"
-            android:layout_height="20dp" />
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
 
         <TextView
             android:id="@+id/textZ"
             android:layout_width="match_parent"
-            android:layout_height="20dp" />
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
 
     </LinearLayout>
 

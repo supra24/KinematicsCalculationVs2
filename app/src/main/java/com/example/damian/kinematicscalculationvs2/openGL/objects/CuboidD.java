@@ -48,6 +48,6 @@ public class CuboidD extends ObjectParent {
 
     @Override
     protected void drawing(GL10 gl) {
-        gl.glColor4f(colors[2][0], colors[2][1], colors[2][2], colors[2][3]);
+        gl.glColor4f(colors[5][0], colors[5][1], colors[5][2], colors[5][3]);
     }
 }
